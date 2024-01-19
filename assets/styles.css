@@ -13,53 +13,24 @@ body {
   );
 }
 
-.calculadora {
+.container {
   text-align: center;
-  padding: 50px;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.1);
   background: linear-gradient(
     90deg,
-    rgba(130, 0, 36, 1) 0%,
-    rgba(150, 116, 1, 1) 38%,
-    rgba(141, 0, 255, 1) 100%
+    rgba(80, 28, 115, 1) 7%,
+    rgba(34, 216, 231, 1) 36%,
+    rgba(202, 29, 253, 1) 58%,
+    rgba(172, 104, 9, 1) 100%
   );
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 1);
 }
 
-.botones {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+form {
+  margin-bottom: 20px;
 }
 
-input {
-  padding: 10px;
-  font-size: 30px;
-  margin-bottom: 1.5cm;
-  text-align: center;
-}
-button {
-  padding: 15px;
-  font-size: 1.5em;
-  cursor: pointer;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #5a09a0;
-  padding: 10px;
-  text-align: right;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #a30707;
-  padding: 10px;
-  text-align: center;
+.oculto {
+  display: none;
 }
